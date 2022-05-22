@@ -7,15 +7,35 @@ class Node:
         self.text = text
 
 
+class Edge:
+    def __init__(self, start: int, end: int):
+        self.start = start
+        self.end = end
+
+
 class HeimerMap:
     def __init__(self):
-        self._node_dict = {}
+        self._nodes = []
+        self._edges = []
         self._node_count = 0
 
     @property
     def nodes(self) -> List[Node]:
-        return list(self._node_dict.values())
+        return self._nodes
 
-    def add_node(self, text: str):
-        index = self._node_count
-        self._node_dict[index] = Node(index, text)
+
+    def add_node(self, index: int, text: str) -> int:
+        text = text.replace(' ','_')
+        self._nodes.append(Node(index, text))
+        self._nodes.sort(key=lambda node: node._index)
+        return index
+
+    @property
+    def links(self) -> List[Edge]:
+        return self._edges
+
+    def add_edge(self, start, end):
+        self._edges.append(Edge(start, end))
+
+    def node_text(self, index: int):
+        return self._nodes[index].text
