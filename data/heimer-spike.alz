@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heimer-mind-map version="3.3.0">
+ <color g="189" r="186" b="182"/>
+ <edge-color g="0" r="0" b="0"/>
+ <grid-color g="160" r="160" b="164"/>
+ <arrow-size>10000</arrow-size>
+ <edge-width>2000</edge-width>
+ <font-family overline="0" strike-out="0" italic="0" weight="50" underline="0" bold="0">Ubuntu</font-family>
+ <text-size>11000</text-size>
+ <corner-radius>5000</corner-radius>
+ <graph>
+  <node w="200000" x="372962" y="108740" h="75000" index="3">
+   <text>Very quick to get started</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="435777" y="-90500" h="75000" index="2">
+   <text>Accelerator keys?
+Maybe no need.</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="423018" y="-205333" h="75000" index="1">
+   <text>Looks good</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="0" y="0" h="75000" index="0">
+   <text>Heimer</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <edge index0="2" index1="3" arrow-mode="0"/>
+  <edge index0="1" index1="2" arrow-mode="0">
+   <text>label arcs!</text>
+  </edge>
+  <edge index0="0" index1="3" arrow-mode="0">
+   <text>intuitive</text>
+  </edge>
+  <edge index0="0" index1="1" arrow-mode="0"/>
+ </graph>
+ <layout-optimizer min-edge-length="100000" aspect-ratio="1000"/>
+</heimer-mind-map>

@@ -137,3 +137,5 @@ ENV/
 
 .idea/
 
+data/generated
+
