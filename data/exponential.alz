@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heimer-mind-map version="3.3.0">
+ <color g="189" r="186" b="182"/>
+ <edge-color g="0" r="0" b="0"/>
+ <grid-color g="160" r="160" b="164"/>
+ <arrow-size>10000</arrow-size>
+ <edge-width>2000</edge-width>
+ <font-family overline="0" strike-out="0" italic="0" weight="50" underline="0" bold="0">Ubuntu</font-family>
+ <text-size>11000</text-size>
+ <corner-radius>5000</corner-radius>
+ <graph>
+  <node w="200000" x="-734541" y="127331" h="75000" index="48">
+   <text>Scriptwriting</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-1083409" y="132132" h="75000" index="47">
+   <text>CpoyWriting</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-795353" y="5708" h="75000" index="46">
+   <text>Marketing</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-1014595" y="277760" h="75000" index="45">
+   <text>email</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="139386" y="-214174" h="75000" index="43">
+   <text>Memory</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="367911" y="-62144" h="75000" index="42">
+   <text>Educational Psychology</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="552746" y="147335" h="75000" index="40">
+   <text>Courses</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="506977" y="254716" h="75000" index="39">
+   <text>MOOcs</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="138346" y="-59867" h="75000" index="37">
+   <text>Habit</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-707000" y="400000" h="75000" index="35">
+   <text>Blogs</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-500220" y="179723" h="75000" index="34">
+   <text>YouTube</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-707000" y="575000" h="75000" index="33">
+   <text>Meta</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-344990" y="540260" h="75000" index="32">
+   <text>Medium</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-707000" y="225000" h="75000" index="31">
+   <text>Twitter</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="235165" y="-301760" h="75000" index="12">
+   <text>Psychology</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-393000" y="-475000" h="75000" index="11">
+   <text>Collective Intelligence</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-707000" y="-300000" h="75000" index="10">
+   <text>Individual Consequences</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="229000" x="-707000" y="-125000" h="75000" index="9">
+   <text>Organisational Consequences</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-393000" y="-300000" h="75000" index="8">
+   <text>Social Consequences</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-101801" y="-624628" h="75000" index="7">
+   <text>AI</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-393000" y="-650000" h="75000" index="6">
+   <text>PKM</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-91239" y="-391230" h="75000" index="5">
+   <text>Brain Levers</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-93000" y="50000" h="75000" index="4">
+   <text>Infoproducts</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-121165" y="-250710" h="75000" index="3">
+   <text>Digital Makers</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-93000" y="-125000" h="75000" index="2">
+   <text>Solopreneur</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="400000" h="75000" index="1">
+   <text>Becoming an Expert</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="-475000" h="75000" index="30">
+   <text>Behavioural Economics</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-393000" y="-125000" h="75000" index="0">
+   <text>Exponential Tech</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-628885" y="-395365" h="75000" index="29">
+   <text>Systems Thinking</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="642546" y="-117958" h="75000" index="13">
+   <text>Neurotransmitters
+</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="371453" y="-160514" h="75000" index="14">
+   <text>Dopamine</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="507000" y="50000" h="75000" index="15">
+   <text>Seratonin</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="50000" h="75000" index="16">
+   <text>Oxytocin</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="507000" y="-650000" h="75000" index="17">
+   <text>Mood</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="507000" y="-300000" h="75000" index="18">
+   <text>Endorphins</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="507000" y="-475000" h="75000" index="19">
+   <text>Exercise</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="-650000" h="75000" index="20">
+   <text>Health</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="225000" h="75000" index="23">
+   <text>Lifelong Learning</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="207000" y="575000" h="75000" index="24">
+   <text>Giving talks</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-93000" y="400000" h="75000" index="25">
+   <text>Writing</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-115884" y="608446" h="75000" index="26">
+   <text>Articles</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-93000" y="225000" h="75000" index="27">
+   <text>Books</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-383398" y="374395" h="75000" index="28">
+   <text>Social Media</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <edge index0="48" index1="34" arrow-mode="1"/>
+  <edge index0="47" index1="32" arrow-mode="1"/>
+  <edge index0="47" index1="45" arrow-mode="1"/>
+  <edge index0="47" index1="31" arrow-mode="1"/>
+  <edge index0="47" index1="35" arrow-mode="1"/>
+  <edge index0="47" index1="33" arrow-mode="1"/>
+  <edge index0="46" index1="48" arrow-mode="1"/>
+  <edge index0="46" index1="47" arrow-mode="1"/>
+  <edge index0="12" index1="30" arrow-mode="1"/>
+  <edge index0="12" index1="13" arrow-mode="1"/>
+  <edge index0="12" index1="42" arrow-mode="1"/>
+  <edge index0="12" index1="43" arrow-mode="1"/>
+  <edge index0="12" index1="17" arrow-mode="1"/>
+  <edge index0="12" index1="37" arrow-mode="1"/>
+  <edge index0="11" index1="5" arrow-mode="1"/>
+  <edge index0="11" index1="7" arrow-mode="1"/>
+  <edge index0="10" index1="0" arrow-mode="1"/>
+  <edge index0="10" index1="23" arrow-mode="1"/>
+  <edge index0="8" index1="11" arrow-mode="1"/>
+  <edge index0="7" index1="20" arrow-mode="1"/>
+  <edge index0="6" index1="7" arrow-mode="1"/>
+  <edge index0="6" index1="10" arrow-mode="1"/>
+  <edge index0="5" index1="12" arrow-mode="1"/>
+  <edge index0="5" index1="6" arrow-mode="1"/>
+  <edge index0="5" index1="7" arrow-mode="1"/>
+  <edge index0="4" index1="40" arrow-mode="1"/>
+  <edge index0="4" index1="39" arrow-mode="1"/>
+  <edge index0="3" index1="4" arrow-mode="1"/>
+  <edge index0="2" index1="46" arrow-mode="1"/>
+  <edge index0="2" index1="0" arrow-mode="1"/>
+  <edge index0="2" index1="3" arrow-mode="1"/>
+  <edge index0="2" index1="4" arrow-mode="1"/>
+  <edge index0="2" index1="28" arrow-mode="1"/>
+  <edge index0="1" index1="24" arrow-mode="1"/>
+  <edge index0="1" index1="23" arrow-mode="1"/>
+  <edge index0="1" index1="2" arrow-mode="1"/>
+  <edge index0="1" index1="25" arrow-mode="1"/>
+  <edge index0="0" index1="29" arrow-mode="1"/>
+  <edge index0="0" index1="1" arrow-mode="1"/>
+  <edge index0="0" index1="5" arrow-mode="1"/>
+  <edge index0="0" index1="8" arrow-mode="1"/>
+  <edge index0="0" index1="9" arrow-mode="1"/>
+  <edge index0="0" index1="7" arrow-mode="1"/>
+  <edge index0="29" index1="11" arrow-mode="1"/>
+  <edge index0="13" index1="16" arrow-mode="1"/>
+  <edge index0="13" index1="15" arrow-mode="1"/>
+  <edge index0="13" index1="14" arrow-mode="1"/>
+  <edge index0="13" index1="18" arrow-mode="1"/>
+  <edge index0="18" index1="19" arrow-mode="1"/>
+  <edge index0="19" index1="17" arrow-mode="1"/>
+  <edge index0="19" index1="20" arrow-mode="1"/>
+  <edge index0="23" index1="39" arrow-mode="1"/>
+  <edge index0="23" index1="9" arrow-mode="1"/>
+  <edge index0="25" index1="47" arrow-mode="1"/>
+  <edge index0="25" index1="48" arrow-mode="1"/>
+  <edge index0="25" index1="26" arrow-mode="1"/>
+  <edge index0="25" index1="27" arrow-mode="1"/>
+  <edge index0="27" index1="4" arrow-mode="1"/>
+  <edge index0="28" index1="31" arrow-mode="1"/>
+  <edge index0="28" index1="33" arrow-mode="1"/>
+  <edge index0="28" index1="34" arrow-mode="1"/>
+  <edge index0="28" index1="7" arrow-mode="1"/>
+  <edge index0="28" index1="32" arrow-mode="1"/>
+  <edge index0="28" index1="35" arrow-mode="1"/>
+  <edge index0="28" index1="45" arrow-mode="1"/>
+ </graph>
+ <layout-optimizer min-edge-length="100000" aspect-ratio="1000"/>
+</heimer-mind-map>

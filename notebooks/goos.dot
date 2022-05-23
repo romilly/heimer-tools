@@ -1,0 +1,47 @@
+digraph {
+    0 [label="GOOP
+Growing Object-Oriented Python
+guided by tests"];
+    1 [label="Test Driven Development"];
+    2 [label="Types of Test
+Unit
+Integration
+End to End"];
+    3 [label="Unit"];
+    4 [label="Tools
+Unittest
+Mocks
+PyCharm"];
+    6 [label="Integration"];
+    7 [label="End to End"];
+    8 [label="Object Oriented"];
+    9 [label="OOP"];
+    10 [label="OOD"];
+    11 [label="Roles
+One object may have several roles"];
+    12 [label="Responsibilities
+Things an object in a role must
+know
+do
+decide"];
+    13 [label="Interfaces"];
+    18 [label="Classes"];
+    19 [label="methods"];
+    10 -> 11;
+    9 -> 13;
+    9 -> 18;
+    8 -> 9;
+    8 -> 10;
+    12 -> 13;
+    11 -> 12;
+    18 -> 13;
+    18 -> 19;
+    0 -> 8;
+    0 -> 1;
+    13 -> 11;
+    1 -> 2;
+    1 -> 4;
+    2 -> 7;
+    2 -> 3;
+    2 -> 6;
+}

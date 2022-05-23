@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heimer-mind-map version="3.3.0">
+ <color g="189" r="186" b="182"/>
+ <edge-color g="0" r="0" b="0"/>
+ <grid-color g="160" r="160" b="164"/>
+ <arrow-size>10000</arrow-size>
+ <edge-width>2000</edge-width>
+ <font-family overline="0" strike-out="0" italic="0" weight="50" underline="0" bold="0">Ubuntu</font-family>
+ <text-size>11000</text-size>
+ <corner-radius>5000</corner-radius>
+ <graph>
+  <node w="200000" x="249296" y="-413407" h="75000" index="10">
+   <text>OOD</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="577111" y="-44370" h="75000" index="9">
+   <text>OOP</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-94222" y="-396759" h="75000" index="8">
+   <text>Object Oriented</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="282666" y="121796" h="75000" index="7">
+   <text>End to End</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="234000" x="723137" y="-439678" h="113000" index="12">
+   <text>Responsibilities
+Things an object in a role must
+know
+do
+decide</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="258000" x="378148" y="-281608" h="75000" index="11">
+   <text>Roles
+One object may have several roles</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="1177777" y="-141537" h="75000" index="19">
+   <text>methods</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="64777" y="119833" h="75000" index="6">
+   <text>Integration</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="925537" y="-20814" h="75000" index="18">
+   <text>Classes</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="251000" x="-382777" y="-52018" h="79000" index="0">
+   <text>GOOP
+Growing Object-Oriented Python
+guided by tests</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="797781" y="-180971" h="75000" index="13">
+   <text>Interfaces</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-50055" y="-229907" h="75000" index="1">
+   <text>Test Driven Development</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-42203" y="-81666" h="96000" index="2">
+   <text>Types of Test
+Unit
+Integration
+End to End</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-168814" y="118555" h="75000" index="3">
+   <text>Unit</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="346462" y="-34555" h="96000" index="4">
+   <text>Tools
+Unittest
+Mocks
+PyCharm</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <edge index0="10" index1="11" arrow-mode="0"/>
+  <edge index0="9" index1="13" arrow-mode="0"/>
+  <edge index0="9" index1="18" arrow-mode="0"/>
+  <edge index0="8" index1="9" arrow-mode="0"/>
+  <edge index0="8" index1="10" arrow-mode="0"/>
+  <edge index0="12" index1="13" arrow-mode="0"/>
+  <edge index0="11" index1="12" arrow-mode="0"/>
+  <edge index0="18" index1="13" arrow-mode="0"/>
+  <edge index0="18" index1="19" arrow-mode="0"/>
+  <edge index0="0" index1="8" arrow-mode="0"/>
+  <edge index0="0" index1="1" arrow-mode="0"/>
+  <edge index0="13" index1="11" arrow-mode="0"/>
+  <edge index0="1" index1="2" arrow-mode="0"/>
+  <edge index0="1" index1="4" arrow-mode="0"/>
+  <edge index0="2" index1="7" arrow-mode="0"/>
+  <edge index0="2" index1="3" arrow-mode="0"/>
+  <edge index0="2" index1="6" arrow-mode="0"/>
+ </graph>
+ <layout-optimizer min-edge-length="100000" aspect-ratio="1000"/>
+</heimer-mind-map>

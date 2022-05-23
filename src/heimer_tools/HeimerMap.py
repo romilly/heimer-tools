@@ -2,8 +2,8 @@ from typing import List
 
 
 class Node:
-    def __init__(self,index: int, text: str):
-        self._index = index
+    def __init__(self, idx: int, text: str):
+        self.idx = idx
         self.text = text
 
 
@@ -15,19 +15,17 @@ class Edge:
 
 class HeimerMap:
     def __init__(self):
-        self._nodes = []
+        self._nodes = {}
         self._edges = []
         self._node_count = 0
 
     @property
     def nodes(self) -> List[Node]:
-        return self._nodes
-
+        return sorted(self._nodes.values(), key=lambda node: node.idx)
 
     def add_node(self, index: int, text: str) -> int:
-        text = text.replace(' ','_')
-        self._nodes.append(Node(index, text))
-        self._nodes.sort(key=lambda node: node._index)
+        # text = text.replace(' ','_')
+        self._nodes[index] = Node(index, text)
         return index
 
     @property

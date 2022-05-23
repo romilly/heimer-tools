@@ -9,7 +9,7 @@ def read_map(filename) -> HeimerMap:
     graph = document.find('graph')
     nodes = graph.findall('node')
     for node in nodes:
-        map.add_node(node.get('index'), node.find('text').text)
+        map.add_node(int(node.get('index')), node.find('text').text)
     for edge in graph.findall('edge'):
         map.add_edge(int(edge.get('index0')), int(edge.get('index1')))
     return map

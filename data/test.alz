@@ -15,17 +15,17 @@
    <text-color g="0" r="0" b="0"/>
   </node>
   <node w="200000" x="36314" y="211796" h="75000" index="1">
-   <text>Node 3</text>
-   <color g="255" r="255" b="255"/>
-   <text-color g="0" r="0" b="0"/>
-  </node>
-  <node w="200000" x="-288555" y="3722" h="75000" index="2">
    <text>Node 1</text>
    <color g="255" r="255" b="255"/>
    <text-color g="0" r="0" b="0"/>
   </node>
-  <node w="200000" x="267944" y="-8055" h="75000" index="3">
+  <node w="200000" x="-288555" y="3722" h="75000" index="2">
    <text>Node 2</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="267944" y="-8055" h="75000" index="3">
+   <text>Node 3</text>
    <color g="255" r="255" b="255"/>
    <text-color g="0" r="0" b="0"/>
   </node>

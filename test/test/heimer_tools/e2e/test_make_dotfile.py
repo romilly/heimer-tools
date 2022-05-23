@@ -1,8 +1,8 @@
 import unittest
 
-from heimer_tools.HeimerMap import HeimerMap
-from heimer_tools.reader import read_map
-from heimer_tools.writer import write_dot
+from hamcrest import assert_that, contains_string
+
+from heimer_tools.convert import convert
 
 
 def read(file_name):
@@ -11,16 +11,16 @@ def read(file_name):
     return contents
 
 
-def convert(filename):
-    map = read_map(filename)
-    return write_dot(map)
-
-
 class DotFilerTestCase(unittest.TestCase):
-    def test_something(self):
+    def test_small_map(self):
         expected = read('/home/romilly/git/active/heimer-tools/data/test.dot')
         df = convert('/home/romilly/git/active/heimer-tools/data/test.alz')
         self.assertEqual(expected, df)  # add assertion here
+
+    def test_big_map(self):
+        dot_data = convert('/home/romilly/git/active/heimer-tools/data/exponential.alz')
+        assert_that(dot_data, contains_string('graph {'))
+        assert_that(dot_data, contains_string('Becoming an Expert'))
 
 
 if __name__ == '__main__':
