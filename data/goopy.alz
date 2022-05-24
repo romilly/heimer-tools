@@ -9,6 +9,38 @@
  <text-size>11000</text-size>
  <corner-radius>5000</corner-radius>
  <graph>
+  <node w="200000" x="346462" y="-34555" h="96000" index="4">
+   <text>Tools
+Unittest
+Mocks
+PyCharm</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-168814" y="118555" h="75000" index="3">
+   <text>Unit</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-42203" y="-81666" h="96000" index="2">
+   <text>Types of Test
+Unit
+Integration
+End to End</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-379379" y="257999" h="75000" index="21">
+   <text>GOOS
+goos.png</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
+  <node w="200000" x="-94222" y="-396759" h="75000" index="8">
+   <text>Object Oriented</text>
+   <color g="255" r="255" b="255"/>
+   <text-color g="0" r="0" b="0"/>
+  </node>
   <node w="200000" x="249296" y="-413407" h="75000" index="10">
    <text>OOD</text>
    <color g="255" r="255" b="255"/>
@@ -16,11 +48,6 @@
   </node>
   <node w="200000" x="577111" y="-44370" h="75000" index="9">
    <text>OOP</text>
-   <color g="255" r="255" b="255"/>
-   <text-color g="0" r="0" b="0"/>
-  </node>
-  <node w="200000" x="-94222" y="-396759" h="75000" index="8">
-   <text>Object Oriented</text>
    <color g="255" r="255" b="255"/>
    <text-color g="0" r="0" b="0"/>
   </node>
@@ -60,7 +87,7 @@ One object may have several roles</text>
    <text-color g="0" r="0" b="0"/>
   </node>
   <node w="251000" x="-382777" y="-52018" h="79000" index="0">
-   <text>GOOP
+   <text>GOOPy
 Growing Object-Oriented Python
 guided by tests</text>
    <color g="255" r="255" b="255"/>
@@ -76,44 +103,24 @@ guided by tests</text>
    <color g="255" r="255" b="255"/>
    <text-color g="0" r="0" b="0"/>
   </node>
-  <node w="200000" x="-42203" y="-81666" h="96000" index="2">
-   <text>Types of Test
-Unit
-Integration
-End to End</text>
-   <color g="255" r="255" b="255"/>
-   <text-color g="0" r="0" b="0"/>
-  </node>
-  <node w="200000" x="-168814" y="118555" h="75000" index="3">
-   <text>Unit</text>
-   <color g="255" r="255" b="255"/>
-   <text-color g="0" r="0" b="0"/>
-  </node>
-  <node w="200000" x="346462" y="-34555" h="96000" index="4">
-   <text>Tools
-Unittest
-Mocks
-PyCharm</text>
-   <color g="255" r="255" b="255"/>
-   <text-color g="0" r="0" b="0"/>
-  </node>
+  <edge index0="2" index1="6" arrow-mode="0"/>
+  <edge index0="2" index1="3" arrow-mode="0"/>
+  <edge index0="2" index1="7" arrow-mode="0"/>
+  <edge index0="8" index1="9" arrow-mode="0"/>
+  <edge index0="8" index1="10" arrow-mode="0"/>
   <edge index0="10" index1="11" arrow-mode="0"/>
   <edge index0="9" index1="13" arrow-mode="0"/>
   <edge index0="9" index1="18" arrow-mode="0"/>
-  <edge index0="8" index1="9" arrow-mode="0"/>
-  <edge index0="8" index1="10" arrow-mode="0"/>
   <edge index0="12" index1="13" arrow-mode="0"/>
   <edge index0="11" index1="12" arrow-mode="0"/>
   <edge index0="18" index1="13" arrow-mode="0"/>
   <edge index0="18" index1="19" arrow-mode="0"/>
+  <edge index0="0" index1="21" arrow-mode="0"/>
   <edge index0="0" index1="8" arrow-mode="0"/>
   <edge index0="0" index1="1" arrow-mode="0"/>
   <edge index0="13" index1="11" arrow-mode="0"/>
-  <edge index0="1" index1="2" arrow-mode="0"/>
   <edge index0="1" index1="4" arrow-mode="0"/>
-  <edge index0="2" index1="7" arrow-mode="0"/>
-  <edge index0="2" index1="3" arrow-mode="0"/>
-  <edge index0="2" index1="6" arrow-mode="0"/>
+  <edge index0="1" index1="2" arrow-mode="0"/>
  </graph>
  <layout-optimizer min-edge-length="100000" aspect-ratio="1000"/>
 </heimer-mind-map>

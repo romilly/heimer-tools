@@ -1,32 +1,20 @@
 digraph {
-    0 [label="GOOP
-Growing Object-Oriented Python
-guided by tests"];
-    1 [label="Test Driven Development"];
-    2 [label="Types of Test
-Unit
-Integration
-End to End"];
-    3 [label="Unit"];
-    4 [label="Tools
-Unittest
-Mocks
-PyCharm"];
-    6 [label="Integration"];
-    7 [label="End to End"];
-    8 [label="Object Oriented"];
-    9 [label="OOP"];
-    10 [label="OOD"];
-    11 [label="Roles
-One object may have several roles"];
-    12 [label="Responsibilities
-Things an object in a role must
-know
-do
-decide"];
-    13 [label="Interfaces"];
-    18 [label="Classes"];
-    19 [label="methods"];
+    0 [label = <<TABLE border="0"><TR><TD><B>GOOP</B></TD></TR><TR><TD>Growing Object-Oriented Python</TD></TR><TR><TD>guided by tests</TD></TR></TABLE>>];
+    1 [label = <<TABLE border="0"><TR><TD><B>Test Driven Development</B></TD></TR></TABLE>>];
+    2 [label = <<TABLE border="0"><TR><TD><B>Types of Test</B></TD></TR><TR><TD>Unit</TD></TR><TR><TD>Integration</TD></TR><TR><TD>End to End</TD></TR></TABLE>>];
+    3 [label = <<TABLE border="0"><TR><TD><B>Unit</B></TD></TR></TABLE>>];
+    4 [label = <<TABLE border="0"><TR><TD><B>Tools</B></TD></TR><TR><TD>Unittest</TD></TR><TR><TD>Mocks</TD></TR><TR><TD>PyCharm</TD></TR></TABLE>>];
+    6 [label = <<TABLE border="0"><TR><TD><B>Integration</B></TD></TR></TABLE>>];
+    7 [label = <<TABLE border="0"><TR><TD><B>End to End</B></TD></TR></TABLE>>];
+    8 [label = <<TABLE border="0"><TR><TD><B>Object Oriented</B></TD></TR></TABLE>>];
+    9 [label = <<TABLE border="0"><TR><TD><B>OOP</B></TD></TR></TABLE>>];
+    10 [label = <<TABLE border="0"><TR><TD><B>OOD</B></TD></TR></TABLE>>];
+    11 [label = <<TABLE border="0"><TR><TD><B>Roles</B></TD></TR><TR><TD>One object may have several roles</TD></TR></TABLE>>];
+    12 [label = <<TABLE border="0"><TR><TD><B>Responsibilities</B></TD></TR><TR><TD>Things an object in a role must</TD></TR><TR><TD>know</TD></TR><TR><TD>do</TD></TR><TR><TD>decide</TD></TR></TABLE>>];
+    13 [label = <<TABLE border="0"><TR><TD><B>Interfaces</B></TD></TR></TABLE>>];
+    18 [label = <<TABLE border="0"><TR><TD><B>Classes</B></TD></TR></TABLE>>];
+    19 [label = <<TABLE border="0"><TR><TD><B>methods</B></TD></TR></TABLE>>];
+    21 [label = <<TABLE border="0"><TR><TD><B>GOOS</B></TD></TR><TR><TD><IMG SRC="goos.png"/></TD></TR></TABLE>>];
     10 -> 11;
     9 -> 13;
     9 -> 18;
@@ -36,6 +24,7 @@ decide"];
     11 -> 12;
     18 -> 13;
     18 -> 19;
+    0 -> 21;
     0 -> 8;
     0 -> 1;
     13 -> 11;
