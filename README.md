@@ -27,6 +27,6 @@ And here's the dot output:
 
 ![GOOPy](docs/img/goop.png)
 
-It's still Alpha sotware, so the API is likely change.
+It's still Alpha software, so the API is likely change.
 It's already functional enough to be useful, however,
 so my next task will be to publish it on PyPi.
