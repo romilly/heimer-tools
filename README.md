@@ -11,8 +11,6 @@ the Heimer format and others that I use.
 
 The first transformation is from a Heimer file to [graphviz]() `dot` format.
 
-This is not particularly useful but it acts as a good test of my ability to parse and interpret the file format.
-
 Here's the simple Heimer test map:
 
 ![Heimer](docs/img/test-heimer.png)
