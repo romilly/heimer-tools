@@ -13,8 +13,8 @@ This is not particularly useful but it acts as a good test of my ability to pars
 
 Here's the simple Heimer test map:
 
-![Heimer](docs/img/test.png)
+![Heimer](docs/img/test-heimer.png)
 
 And here's the dot output:
 
-![Dot output](docs/img/test-dot-out.png)
+![Dot output](docs/img/test-out.png)
