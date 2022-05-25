@@ -19,6 +19,27 @@ And here's the dot output:
 
 ![Dot output](docs/img/test-out.png)
 
+## Installation
+
+The library is not yet on PyPi,so you'll need to clone the GitHub repository into a directory of your choice.
+
+## Running
+
+The easiest way to run the software is via the
+Jupyter notebook at `notebooks\converter.ipynb`
+
+If you run the notebook it should generate a `dot` file `goopy.dot`
+
+To generate a `.png` file from the generated dotfile,
+you'll need to install [Graphviz](https://graphviz.org/)
+and then run
+
+```shell
+cd notebooks
+dot -Tpng goopy.dot > goopy.png
+```
+
+
 ## Roadmap
 
 `heimer-tools` already handles images: here is the output from a real *work in progress*:
