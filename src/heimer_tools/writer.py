@@ -1,10 +1,13 @@
 import io
 import os
 
+import graphviz
+
 from heimer_tools.HeimerMap import HeimerMap
 
 DOT_PREFIX = 'digraph {\n'
 DOT_SUFFIX = '}'
+
 
 
 def table_row(text: str, bold: bool = False, align = 'LEFT'):
@@ -31,19 +34,22 @@ def filter_text(node_text: str):
     return result
 
 
-def write_contents(map: HeimerMap, r: io.StringIO):
+def get_dot(map):
+    g = graphviz.Digraph('G')
     for node in map.nodes:
-        text = filter_text(node.text)
-        r.write('    %d [label = %s] [shape=rect];\n' % (node.idx, text))
+        g.node(name=str(node.idx),label=filter_text(node.text),shape='rect')
     for link in map.links:
-        r.write('    %d -> %d;\n' % (link.start, link.end))
+        g.edge(str(link.start), str(link.end))
+    return g
 
 
-def write_dot(map: HeimerMap) -> str:
-    r = io.StringIO()
-    r.write(DOT_PREFIX)
-    write_contents(map, r)
-    r.write(DOT_SUFFIX)
-    result = r.getvalue()
-    r.close()
+def prettyfy(lines):
+    lines = ['digraph {\n']+lines+['}']
+    result = ''.join(lines)
+    result = result.replace('\t', '    ')
     return result
+
+
+def prettify_dot(map: HeimerMap):
+    g = get_dot(map)
+    return prettyfy(g.body)
