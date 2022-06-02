@@ -1,0 +1,17 @@
+digraph {
+    0 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>PKM tools</B></TD></TR></TABLE>>] [shape=rect];
+    1 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>1960s</B></TD></TR><TR><TD  ALIGN="LEFT">Library</TD></TR><TR><TD  ALIGN="LEFT">Index Cards</TD></TR></TABLE>>] [shape=rect];
+    2 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>1970s</B></TD></TR><TR><TD  ALIGN="LEFT">Hand drawn Mind Maps</TD></TR><TR><TD  ALIGN="LEFT"></TD></TR></TABLE>>] [shape=rect];
+    3 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>1980s</B></TD></TR><TR><TD  ALIGN="LEFT">DIY Mind mapper in Smalltalk</TD></TR></TABLE>>] [shape=rect];
+    4 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>1990s</B></TD></TR><TR><TD  ALIGN="LEFT">Mind mapping Software</TD></TR><TR><TD  ALIGN="LEFT">MindManager</TD></TR></TABLE>>] [shape=rect];
+    5 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>2000s</B></TD></TR><TR><TD  ALIGN="LEFT">XML Tppic Maps</TD></TR><TR><TD  ALIGN="LEFT">Ontologies</TD></TR><TR><TD  ALIGN="LEFT">Wikis</TD></TR></TABLE>>] [shape=rect];
+    6 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>2010s</B></TD></TR><TR><TD  ALIGN="LEFT">Tiddly Wiki</TD></TR><TR><TD  ALIGN="LEFT">Freeplane (FOSS/XML)</TD></TR><TR><TD  ALIGN="LEFT">Apache FOP for publication</TD></TR></TABLE>>] [shape=rect];
+    7 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>2020s</B></TD></TR><TR><TD  ALIGN="LEFT">Evernote</TD></TR><TR><TD  ALIGN="LEFT">Refind</TD></TR><TR><TD  ALIGN="LEFT">Pocket</TD></TR><TR><TD  ALIGN="LEFT">Roam, logseq</TD></TR><TR><TD  ALIGN="LEFT">Semantic Scholar</TD></TR><TR><TD  ALIGN="LEFT">Scholarcy</TD></TR></TABLE>>] [shape=rect];
+    6 -> 7;
+    5 -> 6;
+    4 -> 5;
+    3 -> 4;
+    2 -> 3;
+    1 -> 2;
+    0 -> 1;
+}

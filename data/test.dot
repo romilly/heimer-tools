@@ -3,7 +3,7 @@ digraph {
     1 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Node 1</B></TD></TR></TABLE>>] [shape=rect];
     2 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Node 2</B></TD></TR></TABLE>>] [shape=rect];
     3 [label = <<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Node 3</B></TD></TR></TABLE>>] [shape=rect];
-    0 -> 3;
-    0 -> 2;
     0 -> 1;
+    0 -> 2;
+    0 -> 3;
 }

@@ -1,4 +1,5 @@
 import io
+import os
 
 from heimer_tools.HeimerMap import HeimerMap
 
@@ -17,7 +18,8 @@ def filter_text(node_text: str):
     html = io.StringIO()
     html.write('<<TABLE border="0">')
     for (count, line) in enumerate(lines):
-        if line.endswith('.png'):
+        filename, ext = os.path.splitext(line.strip())
+        if ext in ['.png','.jpg','jpeg']:
             html.write(table_row('<IMG SRC="%s"/>' % line))
         elif count == 0:
             html.write(table_row(line, bold=True, align="CENTER"))
