@@ -3,7 +3,7 @@ import unittest
 
 from hamcrest import assert_that, contains_string
 
-from heimer_tools.convert import convert
+from heimer_tools.convert import illustrated_dot_data
 
 DATA_DIR = '/home/romilly/git/active/heimer-tools/data'
 
@@ -18,14 +18,14 @@ def read(file_name):
     return contents
 
 
-class DotFilerTestCase(unittest.TestCase):
+class IllustratedDotFileTestCase(unittest.TestCase):
     def test_small_map(self):
         expected = read(path_to('test.dot'))
-        df = convert(path_to('test.alz'))
+        df = illustrated_dot_data(path_to('test.alz'))
         self.assertEqual(expected, df)
 
     def test_big_map(self):
-        dot_data = convert(path_to('exponential.alz'))
+        dot_data = illustrated_dot_data(path_to('exponential.alz'))
         assert_that(dot_data, contains_string('graph {'))
         assert_that(dot_data, contains_string('Becoming an Expert'))
 

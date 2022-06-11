@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
         n1 = self.map.add_node(1, 'One')
         n2 = self.map.add_node(2, 'Two')
         self.map.add_edge(n1, n2)
-        self.assertEqual(1, len(self.map.links))
+        self.assertEqual(1, len(self.map.edges))
 
 
 if __name__ == '__main__':

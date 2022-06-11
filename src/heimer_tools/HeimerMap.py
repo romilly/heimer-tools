@@ -29,7 +29,7 @@ class HeimerMap:
         return index
 
     @property
-    def links(self) -> List[Edge]:
+    def edges(self) -> List[Edge]:
         return self._edges
 
     def add_edge(self, start, end):

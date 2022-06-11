@@ -1,6 +1,6 @@
 import sys
 
-from heimer_tools.convert import convert
+from heimer_tools.convert import illustrated_dot_data
 
 
 def main():
@@ -10,7 +10,7 @@ def main():
     alz_file = sys.argv[1]
     dot_file = sys.argv[2]
     print('converting %s to %s' % (alz_file, dot_file))
-    dot_data = convert(alz_file)
+    dot_data = illustrated_dot_data(alz_file)
     with open(dot_file, 'w') as dotf:
         dotf.write(dot_data)
 
