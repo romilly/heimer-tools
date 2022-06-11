@@ -1,4 +1,4 @@
-digraph {
+digraph G {
     0 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Central node</B></TD></TR><TR><TD  ALIGN="LEFT">with additional information</TD></TR><TR><TD  ALIGN="LEFT">of various lengths</TD></TR></TABLE>> shape=rect]
     1 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Node 1</B></TD></TR></TABLE>> shape=rect]
     2 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Node 2</B></TD></TR></TABLE>> shape=rect]

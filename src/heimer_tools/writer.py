@@ -36,17 +36,15 @@ class IllustratedDotMaker(DotMaker):
         return result
 
 
-def get_graph_body(map: HeimerMap, maker: DotMaker):
+def get_graph_source(map: HeimerMap, maker: DotMaker):
     maker.visit(map)
-    return maker.body()
+    return maker.source()
 
 
-def wrap_body(lines):
-    lines = ['digraph {\n']+lines+['}']
-    result = ''.join(lines)
-    result = result.replace('\t', '    ')
+def replace_tabs(text):
+    result = text.replace('\t', '    ')
     return result
 
 
 def illustrated_dot(map: HeimerMap):
-    return wrap_body(get_graph_body(map, IllustratedDotMaker()))
+    return replace_tabs(get_graph_source(map, IllustratedDotMaker()))

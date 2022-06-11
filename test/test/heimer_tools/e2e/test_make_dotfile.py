@@ -26,7 +26,7 @@ class IllustratedDotFileTestCase(unittest.TestCase):
 
     def test_big_map(self):
         dot_data = illustrated_dot_data(path_to('exponential.alz'))
-        assert_that(dot_data, contains_string('graph {'))
+        assert_that(dot_data, contains_string('digraph G {'))
         assert_that(dot_data, contains_string('Becoming an Expert'))
 
 

@@ -26,5 +26,5 @@ class DotMaker(HeimerVisitor, ABC):
         HeimerVisitor.__init__(self)
         self.graph = graphviz.Digraph('G')
 
-    def body(self):
-        return self.graph.body
+    def source(self):
+        return self.graph.source
