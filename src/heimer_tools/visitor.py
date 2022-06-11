@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+import graphviz
+
 from heimer_tools.HeimerMap import HeimerMap, Node, Edge
 
 
@@ -17,3 +19,12 @@ class HeimerVisitor(ABC):
     @abstractmethod
     def visit_edge(self, edge: Edge):
         pass
+
+
+class DotMaker(HeimerVisitor, ABC):
+    def __init__(self):
+        HeimerVisitor.__init__(self)
+        self.graph = graphviz.Digraph('G')
+
+    def body(self):
+        return self.graph.body

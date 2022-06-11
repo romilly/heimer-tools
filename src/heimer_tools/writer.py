@@ -1,16 +1,11 @@
 import io
 import os
 
-
-import graphviz
-
 from heimer_tools.HeimerMap import Node, Edge, HeimerMap
-from heimer_tools.visitor import HeimerVisitor
+from heimer_tools.visitor import DotMaker
 
 
-class IllustratedDotMaker(HeimerVisitor):
-    def __init__(self):
-        self.graph = graphviz.Digraph('G')
+class IllustratedDotMaker(DotMaker):
 
     def visit_node(self, node: Node):
         self.graph.node(name=str(node.idx),label=self.filter_text(node.text),shape='rect')
@@ -40,12 +35,8 @@ class IllustratedDotMaker(HeimerVisitor):
         html.close()
         return result
 
-    def body(self):
-        return self.graph.body
 
-
-def get_graph_body(map: HeimerMap):
-    maker = IllustratedDotMaker()
+def get_graph_body(map: HeimerMap, maker: DotMaker):
     maker.visit(map)
     return maker.body()
 
@@ -58,4 +49,4 @@ def wrap_body(lines):
 
 
 def illustrated_dot(map: HeimerMap):
-    return wrap_body(get_graph_body(map))
+    return wrap_body(get_graph_body(map, IllustratedDotMaker()))
