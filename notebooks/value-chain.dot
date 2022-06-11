@@ -1,0 +1,10 @@
+digraph {
+    rankdir="LR"
+    0 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Listen</B></TD></TR><TR><TD  ALIGN="LEFT"><IMG SRC="Wartuba.jpg"/></TD></TR></TABLE>> shape=rect]
+    1 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Evaluate</B></TD></TR><TR><TD  ALIGN="LEFT"><IMG SRC="Balance_scales.png"/></TD></TR></TABLE>> shape=rect]
+    2 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Write</B></TD></TR><TR><TD  ALIGN="LEFT"><IMG SRC="Gerrit_Dou.jpg"/></TD></TR></TABLE>> shape=rect]
+    3 [label=<<TABLE border="0"><TR><TD  ALIGN="CENTER"><B>Publish</B></TD></TR><TR><TD  ALIGN="LEFT"><IMG SRC="Caxton.jpg"/></TD></TR></TABLE>> shape=rect]
+    2 -> 3
+    1 -> 2
+    0 -> 1
+}
