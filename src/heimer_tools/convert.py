@@ -1,7 +1,7 @@
 import io
 import os
 
-from heimer_tools.HeimerMap import Node, Edge, HeimerMap
+from heimer_tools.HeimerMap import Node, HeimerMap
 from heimer_tools.reader import read_map
 from heimer_tools.visitor import DotMaker
 
@@ -44,25 +44,21 @@ def replace_tabs(text):
     return result
 
 
-def illustrated_dot(heimer_map: HeimerMap):
-    return replace_tabs(get_graph_source(heimer_map, IllustratedDotMaker()))
-
-
 def illustrated_dot_data(heimer_file: str):
-    map = read_map(heimer_file)
-    return illustrated_dot(map)
+    return dot_source(heimer_file, IllustratedDotMaker())
 
+
+def dot_source(heimer_file, maker):
+    return replace_tabs(get_graph_source(read_map(heimer_file), maker))
 
 
 class SimpleDotMaker(DotMaker):
+    def start(self):
+        self.graph.attr('node', shape='rect')
+
     def visit_node(self, node: Node):
         self.graph.node(name=str(node.idx), label=node.text)
 
 
-def simple_dot(heimer_map: HeimerMap):
-    return replace_tabs(get_graph_source(heimer_map, SimpleDotMaker()))
-
-
 def simple_dot_data(heimer_file: str):
-    map = read_map(heimer_file)
-    return simple_dot(map)
+    return dot_source(heimer_file, SimpleDotMaker())

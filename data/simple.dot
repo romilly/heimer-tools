@@ -1,4 +1,5 @@
 digraph G {
+    node [shape=rect]
     0 [label="Central node
 with additional information
 of various lengths"]

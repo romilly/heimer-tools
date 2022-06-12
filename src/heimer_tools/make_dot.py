@@ -14,5 +14,6 @@ def main():
     with open(dot_file, 'w') as dotf:
         dotf.write(dot_data)
 
+
 if __name__ == '__main__':
     main()
