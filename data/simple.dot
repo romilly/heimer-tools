@@ -1,0 +1,11 @@
+digraph G {
+    0 [label="Central node
+with additional information
+of various lengths"]
+    1 [label="Node 1"]
+    2 [label="Node 2"]
+    3 [label="Node 3"]
+    0 -> 1
+    0 -> 2
+    0 -> 3
+}

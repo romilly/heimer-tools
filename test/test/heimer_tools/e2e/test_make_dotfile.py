@@ -4,6 +4,7 @@ import unittest
 from hamcrest import assert_that, contains_string
 
 from heimer_tools.convert import illustrated_dot_data
+from heimer_tools.convert import simple_dot_data
 
 DATA_DIR = '/home/romilly/git/active/heimer-tools/data'
 
@@ -28,6 +29,14 @@ class IllustratedDotFileTestCase(unittest.TestCase):
         dot_data = illustrated_dot_data(path_to('exponential.alz'))
         assert_that(dot_data, contains_string('digraph G {'))
         assert_that(dot_data, contains_string('Becoming an Expert'))
+
+
+class SimpleDotFileTestCase(unittest.TestCase):
+    def test_small_map(self):
+        expected = read(path_to('simple.dot'))
+        df = simple_dot_data(path_to('test.alz'))
+        self.assertEqual(expected, df)
+
 
 
 if __name__ == '__main__':

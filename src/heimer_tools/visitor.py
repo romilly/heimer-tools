@@ -26,5 +26,8 @@ class DotMaker(HeimerVisitor, ABC):
         HeimerVisitor.__init__(self)
         self.graph = graphviz.Digraph('G')
 
+    def visit_edge(self, edge: Edge):
+        self.graph.edge(str(edge.start), str(edge.end))
+
     def source(self):
         return self.graph.source
